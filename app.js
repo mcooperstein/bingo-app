@@ -11,7 +11,7 @@ function card() {
     var joined = newLetter + "-" + number;
 
     if (happyness.includes(joined)) {
-        alert(joined + " has already been called")
+        card();
     } else {
         happyness.push(joined);
         //outputting to the screen area
