@@ -30,8 +30,8 @@ $("#flip").click(function () {
 $("#check").click(function () {
     var ball = $("input").val()
     if (happyness.includes(ball)) {
-        alert(ball + " has already been called")
+        $("h3").text(ball + " has already been called")
     } else {
-        alert(ball + " was not called")
+        $("h3").text(ball + " was not called")
     }
 });
